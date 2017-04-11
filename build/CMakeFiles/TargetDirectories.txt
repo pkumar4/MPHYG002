@@ -1,0 +1,11 @@
+/home/hpc/convexhull/build/CMakeFiles/test.dir
+/home/hpc/convexhull/build/CMakeFiles/edit_cache.dir
+/home/hpc/convexhull/build/CMakeFiles/rebuild_cache.dir
+/home/hpc/convexhull/build/src/CMakeFiles/test.dir
+/home/hpc/convexhull/build/src/CMakeFiles/rebuild_cache.dir
+/home/hpc/convexhull/build/src/CMakeFiles/edit_cache.dir
+/home/hpc/convexhull/build/src/CMakeFiles/convexhull_solver.dir
+/home/hpc/convexhull/build/test/CMakeFiles/test.dir
+/home/hpc/convexhull/build/test/CMakeFiles/edit_cache.dir
+/home/hpc/convexhull/build/test/CMakeFiles/rebuild_cache.dir
+/home/hpc/convexhull/build/test/CMakeFiles/TestConvexHull.dir

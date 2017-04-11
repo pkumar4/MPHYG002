@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hpc/convexhull/src/convexhull_solver.cpp
+iostream
+-
+grahamscan.h
+/home/hpc/convexhull/src/grahamscan.h
+jarvismarch.h
+/home/hpc/convexhull/src/jarvismarch.h
+
+/home/hpc/convexhull/src/grahamscan.cpp
+iostream
+/home/hpc/convexhull/src/iostream
+stack
+/home/hpc/convexhull/src/stack
+cstdlib
+/home/hpc/convexhull/src/cstdlib
+
+/home/hpc/convexhull/src/grahamscan.h
+stack
+/home/hpc/convexhull/src/stack
+
+/home/hpc/convexhull/src/jarvismarch.cpp
+iostream
+-
+
+/home/hpc/convexhull/src/jarvismarch.h
+
