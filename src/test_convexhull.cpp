@@ -38,11 +38,11 @@ TEST_CASE("Graham Scan Test","[gscan]"){
 
 	//CHECK_THAT(pstack,Equals(convexHull(test_points,n)));
 }
-/*TEST_CASE("JarvisMarch Test","[jv]"){
+TEST_CASE("JarvisMarch Test","[jv]"){
 	Point points[] = {{0,3},{2,2},{1,1}};
 	REQUIRE(1==findOrientation(points[0],points[1],points[2]));
 	Point test_points[]={{0,3},{1,1},{2,2},{4,4},{0,0},{1,2},{3,1},{3,3}};
 	int n = sizeof(test_points)/sizeof(test_points[0]);
 	//solve_ConvexHull(points,n);
 	
-}*/
+}
