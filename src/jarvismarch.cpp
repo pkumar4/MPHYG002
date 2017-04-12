@@ -66,7 +66,7 @@ void solve_convexHull(Point points[],int n)
 void solveJarvisMarch()
 {
 	Point points[] ={{0,3},{2,2},{1,1},{2,1},{3,0},{0,0},{3,3}};
-	cout<<"The points in the convex hull are:";
+	cout<<"\nThe points in the convex hull are:\n";
 	int n = sizeof(points)/sizeof(points[0]);
 	solve_convexHull(points,n);
 }

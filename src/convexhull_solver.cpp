@@ -23,7 +23,7 @@ class GrahamScan:public ConvexHullSolver
 {
 	public:
 		void findConvexHull(){
-			cout<<"Solving by GrahamScan";
+			cout<<"\nSolving by GrahamScan";
 			solve();
 		}
 
@@ -34,7 +34,7 @@ class JarvisMarch : public ConvexHullSolver
 	public:
 		void findConvexHull()
 		{
-			cout<<"Solving by Jarvis March algo";
+			cout<<"\nSolving by Jarvis March algo";
 			solveJarvisMarch();
 		}
 
@@ -50,12 +50,12 @@ class Solver
 		ConvexHullSolver *convexhull_solver;
 		void run_solver()
 		{
-			cout<<"Inside run solver";
+			
 			convexhull_solver->findConvexHull();
 		}
 		void setConvexHullSolver(ConvexHullSolver *cs)
 		{
-			cout<<"Switching solver\n";
+			
 			convexhull_solver = cs;
 		}
 
@@ -65,7 +65,8 @@ class Solver
 //------------------------Main()-------------------------------------------
 
 int main(int argc , char **argv)
-{
+{	
+	
 	Solver *solver = new Solver();
 	solver->setConvexHullSolver(new GrahamScan);
 	solver->run_solver();
